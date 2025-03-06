@@ -10,7 +10,7 @@ Features: HomeScreen functionalities: Bookmark Manager like, Search, To-Do App, 
 To **Install Newest version of this extension**:
 1. Go to the Chrome Web Store and install extension: https://chromewebstore.google.com/detail/new-tab-page-custom-home/dmdeigebfbjbndnnaheobifpfnkhlgbo
 
-1. Go to the firefox ADD-ONS and install extension: https://addons.mozilla.org/en-US/firefox/addon/new-tab-page-dashboard/
+1. Go to the firefox ADD-ONS and install extension: https://addons.mozilla.org/en-US/firefox/addon/homepage-new-tab-page/
 
 To **install Legacy version of this extension**:
 
