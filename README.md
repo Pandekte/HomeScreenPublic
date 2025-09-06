@@ -130,6 +130,148 @@ HomeScreen is designed to enhance your online experience by combining:
 
 ## Changelog
 
+### v0.4.8.3
+- **Added:**
+  - Folder badge on bookmarks in search results and All Folders view (below URL), clickable to navigate to the folder, with tooltip and theme-aware styling.
+- **Improved:**
+  - Improved hover effect.
+
+### v0.4.8.2
+- **Improved:**
+  - Updated folder modal design and layout.
+  - Refined text truncation logic for to-do items.
+  - Set default content margin to 64px.
+  - Minor spacing adjustments for to-do list.
+- **Changed:**
+  - Removed unused comments and general code cleanup.
+
+### v0.4.8.1
+- **Improved:**
+  - Consistent hover effect and gap for buttons.
+  - Settings UI improvements.
+  - To-do list UI improvements.
+  - Small styling changes.
+
+### v0.4.8
+- **Added:**
+  - Light mode and dark mode support.
+  - Remove completed button to to-do list.
+  - Modals in place of browser prompts.
+- **Improved:**
+  - To-do list dragging.
+  - Pinned folder styles.
+  - Reworked clearing all bookmarks and folders.
+  - Small styling changes.
+
+### v0.4.7.8
+- **Added:**
+  - Bookmark size limit.
+- **Fixed:**
+  - Pinned folders buttons react to folder selection correctly.
+
+### v0.4.7.7
+- **Added:**
+  - New Folder Management window with multiple new ways to explore your bookmarks.
+  - Multiple new settings to further customize new folder window and to-do list.
+- **Improved:**
+  - To-do list elements display.
+  - Scrollbar adjustments.
+- **Fixed:**
+  - Scrollbar fixes.
+
+### v0.4.7.6
+- **Added:**
+  - Extra safety checks for tooltips to prevent crashes.
+- **Improved:**
+  - Tooltips now work more reliably across all browsers.
+  - Smoother tooltip experience.
+- **Fixed:**
+  - Fixed tooltips freezing.
+  - Scrollbar color fix.
+
+### v0.4.7.5
+- **Improved:**
+  - Caching mechanism rework for favicons.
+  - To-do list UI.
+- **Fixed:**
+  - Reset filter fix.
+
+### v0.4.7.4
+- **Added:**
+  - UI improvements: now HomeScreen displays on single view.
+  - To-do list toggle button next to Folders button.
+  - Tooltips to inform users about functionalities.
+  - Scrollbar with back to the top button.
+- **Improved:**
+  - Event delegation management system and reduced memory usage.
+  - Modal display and various other small tweaks.
+  - Search debounce.
+- **Fixed:**
+  - Move selected bookmark fix.
+  - Bookmark card hyphenization issue.
+  - Various other small fixes and removed unused code.
+
+### v0.4.6.17
+- **Added:**
+  - Gradient border for to-do list header text with toggle option in Extra settings.
+  - Editable to-do list header text with configurable option in settings.
+  - Visual feedback when editing headers.
+
+### v0.4.6.15
+- **Added:**
+  - Option to adjust folder highlighting.
+
+### v0.4.6.14
+- **Added:**
+  - Current folder highlighting.
+- **Improved:**
+  - Pinned folders UI.
+
+### v0.4.6.13
+- **Improved:**
+  - To-do list restore logic.
+
+### v0.4.6.12
+- **Added:**
+  - To-do list item edit option.
+  - Drag handle for to-do list item.
+- **Improved:**
+  - To-do list drag and drop.
+
+### v0.4.6.11
+- **Improved:**
+  - To-do list panel CSS improvements.
+
+### v0.4.6.10
+- **Added:**
+  - Option to save settings when 'x' is clicked in settings panel.
+- **Improved:**
+  - Settings panel now has three tabs and border.
+- **Fixed:**
+  - Immediate saving of some settings replaced with a validation step.
+
+### v0.4.6.8
+- **Added:**
+  - Auto scaling for multiple screens as the default for the bookmark grid.
+  - Option in Settings to hide the Move button.
+- **Improved:**
+  - Move button appears/hidden dynamically when needed and preserves filter state, so bookmarks filtered in search mode remain selected when moving.
+  - Settings button positioning has been corrected.
+  - Enhanced hover effect over the current folder.
+  - Search logic more consistent with filters.
+- **Fixed:**
+  - Custom background upload functionality.
+  - Hiding URL setting now consistently hides bookmark URLs.
+  - Drag-and-drop functionality disabled in search.
+
+### v0.4.6
+- **Added:**
+  - Ability to bulk select and move bookmarks between folders, with a modal interface for moving bookmarks.
+- **Improved:**
+  - Drag-and-drop functionality for reordering bookmarks and folders with real-time visual feedback.
+- **Fixed:**
+  - Resolved various UI glitches related to drag-and-drop operations and folder rendering.
+
 ### v0.4.5.1
 - **Fixed:**
   - Resolved bookmark editing issue in search mode by passing full bookmark objects.
